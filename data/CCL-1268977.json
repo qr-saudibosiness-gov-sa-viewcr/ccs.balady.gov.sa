@@ -1,6 +1,6 @@
 {
-  "caseId": "CCL-1268223",
-  "token": "Q0NMLTEyNjgyMjM=",
+  "caseId": "CCL-1268977",
+  "token": "Q0NMLTEyNjgylJgvOj=",
   "fields": {
     "certificateStatus": "نشط",
     "certificateNumber": "2025008495",
@@ -11,16 +11,16 @@
     "certificateType": "تحديث الأنشطة",
     "unifiedNumber": "7014323690",
     "registrationIssueDate": "07/06/2015",
-    "entityName": "شركة مشيد النهضة للمقاولات العامة شخص واحد",
+    "entityName": "مكتب ماجد كيا رحيم احمد للمقاولات العامة",
     "entityType": "ذات مسئولية محدودة",
     "entityNationality": "سعودي",
     "capital": "50000",
-    "region": "منطقة الباحه",
-    "city": "الباحة",
-    "phone": "0566008262",
+    "region": "منطقة جده",
+    "city": "جدة",
+    "phone": "0566050375",
     "fax": "no value",
-    "email": "zaky1387@gmail.com",
-    "entityNameHeading": "شركة مشيد النهضة للمقاولات العامة شخص واحد"
+    "email": "Majid1387@gmail.com",
+    "entityNameHeading": "مكتب ماجد كيا رحيم احمد للمقاولات العامة"
   },
   "classifications": [
     {
@@ -311,7 +311,7 @@
     }
   ],
   "owners": [
-    "اسماء عبدالرحمن محمد الزهراني"
+    "ماجد كيا رحيم بخش احمد"
   ],
   "evaluations": [
     {
@@ -360,5 +360,5 @@
       "count": "0"
     }
   ],
-  "pdfFile": "CCL-1268223.pdf"
+  "pdfFile": "CCL-1268977.pdf"
 }
