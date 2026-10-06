@@ -2,7 +2,13 @@
   'use strict';
   var root = window.__CERT_ROOT__ || new URL('../', document.currentScript.src).href;
   var marker='/prweb/PRAuth/QRCode/viewCertificateDetails/';
+  function releaseGate(){
+    document.documentElement.classList.remove('cert-route-pending');
+    var gate=document.getElementById('cert-route-gate');
+    if(gate) gate.remove();
+  }
   function show404(){
+    document.documentElement.classList.remove('cert-route-pending');
     document.documentElement.setAttribute('dir','ltr');
     document.documentElement.setAttribute('lang','en');
     document.title='Error 404';
@@ -177,6 +183,7 @@
       renderRows('versions',data.versions,['version','updatedAt','userType','versionType']);
       renderOwners(data.owners);
       wireDownload(id,data);
+      releaseGate();
     }catch(e){ console.error('Certificate data load failed',e); show404(); }
   }
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',start); else start();
